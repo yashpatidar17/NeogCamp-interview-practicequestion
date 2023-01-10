@@ -8,7 +8,7 @@ var output1 = document.querySelector("#output")
 
 
 
-function addition(value1,value2){
+function addition(){
     var value1 = Number(inputOne.value);
     var value2 = Number(inputTwo.value);
 
@@ -17,7 +17,7 @@ function addition(value1,value2){
  console.log(output1);
 }
 
-function subtraction(value1,value2){
+function subtraction(){
     var value1 = Number(inputOne.value);
     var value2 = Number(inputTwo.value);
     
@@ -26,7 +26,7 @@ function subtraction(value1,value2){
 
 }
 
-function multiplication(value1,value2){
+function multiplication(){
     var value1 = Number(inputOne.value);
     var value2 = Number(inputTwo.value);
     
@@ -34,7 +34,7 @@ function multiplication(value1,value2){
     output1.innerText = mul;
 
 }
-function division(value1,value2){
+function division(){
     var value1 = Number(inputOne.value);
     var value2 = Number(inputTwo.value);
     
