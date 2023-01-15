@@ -12,14 +12,14 @@ function getUrl(text){
 
 function errorHandler(error){
    console.log("Error Occured");
-   alert("An error occured please try after sometime");
+   alert(error.message);
 }
 
 function clickHandler() {
     var inputName = input.value;
 
     fetch(getUrl(inputName))
-        .then(response => response.json())
+        .then(response =>response.json())
         .then(yash => {
             output.innerText = yash.contents.translated;
         })
