@@ -8,7 +8,7 @@ function fetchUrl(){
     fetch('https://jsonplaceholder.typicode.com/todos')
         .then(response => response.json())
         .then(data => {
-            output.innerText = data.toString();
+            output.innerText = data.titles;
         })
        
 }
