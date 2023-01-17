@@ -9,7 +9,7 @@ function checkPas() {
     if(password.length > 10) {
         output.innerText = "Success"
     }else{
-        output.innerText = "unsuccesful"
-        return "output.innerText";
+        
+        alert("Please enter password more than 10 characters")
     }
 }
