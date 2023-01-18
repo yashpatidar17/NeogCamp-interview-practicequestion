@@ -8,15 +8,14 @@ var tasks = [
 statusButton.addEventListener("click", checkStatus(tasks));
 
 
-
 //console.log(tasks);
 function checkStatus(tasks) {
     for(var i = 0; i < tasks.length; i++) {
-        if(tasks[i].completed === true) {
+        if(tasks[i].completed == true) {
             console.log(tasks[i].name);
-            output.innerText = tasks[i].name
+            output.innerText = tasks[i].name;
         }else{
-            output.innerText = tasks[i].name + " is not finisehd";
+           // output.innerText = tasks[i].name + " is not finisehd";
         }
     }
 }
