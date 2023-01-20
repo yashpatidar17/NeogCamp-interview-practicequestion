@@ -3,9 +3,10 @@ var output = document.querySelector(".outputArea");
 var tasks = [
     { name: "cleaning", completed: true },
     { name: "washing", completed: false },
-    { name: "driving", completed: true }
+    { name: "driving", completed: true },
   ];
-statusButton.addEventListener("click", checkStatus(tasks));
+statusButton.addEventListener("click",function() {checkStatus(tasks)});
+
 
 
 //console.log(tasks);
